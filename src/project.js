@@ -1,7 +1,10 @@
 export class Project {
+    static id = 0
+
     constructor(name) {
+        this.id = Project.id
         this.name = name
         this.todos = []
-        id++
+        Project.id++
     }
 }
