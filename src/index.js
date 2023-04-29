@@ -4,5 +4,3 @@ requireStyles.keys().forEach(requireStyles);
 import { Initialize } from "./initialize";
 
 Initialize.dashboard()
-
-// add project to display after it is added
