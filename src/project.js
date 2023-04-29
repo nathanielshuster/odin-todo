@@ -1,3 +1,5 @@
+import { LocalStorage } from "./localStorage"
+
 export class Project {
     static id = 0
 
@@ -6,5 +8,6 @@ export class Project {
         this.name = name
         this.todos = []
         Project.id++
+        LocalStorage.addProject(this)
     }
 }
