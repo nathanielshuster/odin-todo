@@ -14,3 +14,8 @@ header, footer {
     padding: 25px 50px;
     background-color: #57C5B6;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
